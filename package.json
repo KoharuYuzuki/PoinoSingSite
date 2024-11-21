@@ -1,0 +1,19 @@
+{
+  "name": "poinosing-site",
+  "module": "src/app.tsx",
+  "type": "module",
+  "scripts": {
+    "build": "bun run build.ts",
+    "module-list": "bun run module-list.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.14",
+    "vue": "^3.5.12"
+  }
+}
