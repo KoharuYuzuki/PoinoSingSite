@@ -104,7 +104,7 @@ export default defineComponent({
             >
               <div class="flex flex-col gap-2 grow overflow-y-scroll overscroll-contain scrollbar-light">
                 <div class="flex flex-col gap-2">
-                  <p class="text-main-light">Menu</p>
+                  <p class="text-accent">Menu</p>
                   <div
                     class="w-fit h-fit"
                     onClick={ this.close }
@@ -139,7 +139,7 @@ export default defineComponent({
                   </div>
                 </div>
                 <div class="flex flex-col gap-2">
-                  <p class="text-main-light">Links</p>
+                  <p class="text-accent">Links</p>
                   <Link newTab={ true } underline={ false } href="https://koharuyuzuki.github.io/poinosing/latest/">
                     {() => <p>ブラウザで使ってみる</p>}
                   </Link>
